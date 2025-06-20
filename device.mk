@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResMuyu
+    FrameworksResMuyu \
+    SettingsProviderResMuyu
 
 # Rootdir
 PRODUCT_PACKAGES += \
