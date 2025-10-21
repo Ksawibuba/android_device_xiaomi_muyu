@@ -1,0 +1,3 @@
+# Audio
+persist.vendor.audio.cinema.support=true
+ro.vendor.audio.aw.monitor=true
