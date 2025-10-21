@@ -1,0 +1,9 @@
+hal_attribute_service(hal_fingerprint, vendor_hal_fingerprint_service_xiaomi)
+
+allow hal_fingerprint_default sysfs:file write;
+allow hal_fingerprint_default { tee_device uhid_device }:chr_file rw_file_perms;
+allow hal_fingerprint_default { vendor_dmabuf_qseecom_heap_device vendor_dmabuf_qseecom_ta_heap_device }:chr_file r_file_perms;
+
+rw_dir_file(hal_fingerprint_default, sysfs_wakeup)
+
+set_prop(hal_fingerprint_default, vendor_fp_info_prop)

@@ -1,0 +1,2 @@
+# Wakeup
+genfscon sysfs "/devices/platform/soc/soc:fingerprint_fpc/wakeup"    u:object_r:sysfs_wakeup:s0
