@@ -10,6 +10,19 @@ KERNEL_PATH := $(DEVICE_PATH)-kernel
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/xiaomi/sm8635-common/common.mk)
 
+# Fingerprint
+$(call soong_config_set,XIAOMI_BIOMETRICS_FINGERPRINT,USE_NEW_IMPL,true)
+
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint-service.xiaomi
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
+
+# Rootdir
+PRODUCT_PACKAGES += \
+    init.muyu.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
