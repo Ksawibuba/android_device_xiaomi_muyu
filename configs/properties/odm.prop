@@ -1,9 +1,14 @@
 # Audio
 persist.vendor.audio.cinema.support=true
 ro.vendor.audio.aw.monitor=true
+ro.vendor.audio.onetrack.xiaoai.firstevent.support=true
 
 # Bluetooth
 bluetooth.device.default_name=Xiaomi Pad 7 Pro
+
+# Media
+debug.config.video.hevchdr10.encode.support=true
+debug.video.ve_ais.enable=true
 
 # USB
 vendor.usb.product_string=Xiaomi Pad 7 Pro

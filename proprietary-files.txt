@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Xiaomi Pad 7 Pro (OS2.0.202.0.VOYMIXM).
+## are from Xiaomi Pad 7 Pro (OS3.0.3.0.WOYCNXM).
 
 # ACDBs
 odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb
@@ -137,25 +137,19 @@ odm/etc/camera/resources/render/BuildIn/Material/1166466556_252005700
 odm/etc/camera/resources/render/BuildIn/Material/1166466556_2571257293
 odm/etc/camera/resources/render/BuildIn/Material/1166466556_4025145477
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BASE.bin
-odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_COLOR_LAYER_WITH_MASK_Define_NORMAL_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_ADRENO.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_MULTIPLY_FRAMEBUFFER_FETCH_ADRENO.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_SOFT_LIGHT_FRAMEBUFFER_FETCH_ADRENO.bin
-odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_MULTIPLY_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_ADRENO.bin
-odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_SOFT_LIGHT_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_ADRENO.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BRIGHT_EYE_PROCESS.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BRIGHT_EYE_PROCESS_V2_WITH_PUPIL.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_FUSE_OFFSET.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_DEF_CATMULL_ROM.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_EG_SUPPRESSION.bin
-odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_EG_SUPPRESSION_DEF_CATMULL_ROM.bin
-odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_UVMAP.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_FUSE_OFFSET_EYE.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_FUSE_OFFSET_NORMAL.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_FUSE_OFFSET_SPLITLR.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_WARP_Define_ENABLE_EG_SUPPRESSION.bin
-odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_WARP_Define_ENABLE_EG_SUPPRESSION_DEF_CATMULL_ROM.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_WARP_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_WARP_Define_ENABLE_EG_SUPPRESSION.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_WARP_Define_ENABLE_EG_SUPPRESSION_DEF_CATMULL_ROM.bin
@@ -172,7 +166,6 @@ odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MERGE_MAS
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_SIMPLE_PROCESS_ADVANCE_Define_CHANNEL_R.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_VARIANCE.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_MOISTURIZING_PROCESS_NORMAL.bin
-odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_MOISTURIZING_PROCESS_WITH_MASK_Define_MASK_CHANNEL_TYPE_R.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_MOISTURIZING_WEIGHT_DATA.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_TEXTURE_GUIDE.bin
 odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_TEXTURE_PROCESS_NORMAL.bin
@@ -197,6 +190,7 @@ odm/etc/camera/resources/render/BuildIn/binShaders64/shader_YUV2YUVUtils_SWAP_UV
 odm/etc/camera/resources/render/BuildIn/binShaders64/shader_YUVP010ToYUVP010.bin
 odm/etc/camera/resources/render/Config/config_mode_all.json
 odm/etc/camera/resources/render/Config/config_mode_front.json
+odm/etc/camera/resources/render/Config/config_mode_front_video.json
 odm/etc/camera/resources/render/Config/config_mode_rear.json
 odm/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/0_Spotless/FaceMask.bin
 odm/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/0_Spotless/effect.json
@@ -239,12 +233,14 @@ odm/etc/camera/resources/render/Effect/70_FacialRefine/mode_front.json
 odm/etc/camera/resources/render/Effect/effect_list.json
 odm/etc/camera/resources/render/Effect/effect_mode_clear.json
 odm/etc/camera/resources/render/Effect/effect_mode_front.json
+odm/etc/camera/resources/render/Effect/effect_mode_front_video.json
 odm/etc/camera/resources/render/Effect/effect_mode_rear.json
 odm/etc/camera/resources/render/GlobalConfig.json
 odm/etc/camera/resources/TStools_default_param.json
 odm/etc/camera/resources/Version.txt
 odm/etc/camera/resources/default_param.json
 odm/etc/camera/resources/truesight_config_front.json
+odm/etc/camera/resources/truesight_config_front_video.json
 odm/etc/camera/resources/truesight_config_rear.json
 odm/etc/camera/resources/truesight_param.json
 odm/etc/camera/resources/truesight_param_debug.json
@@ -423,7 +419,8 @@ odm/etc/camera/beauty_config_cn.json
 odm/etc/camera/beauty_config_cn_8g.json
 odm/etc/camera/beauty_config_gl.json
 odm/etc/camera/beauty_config_gl_8g.json
-odm/etc/camera/cameraopt.json
+odm/etc/camera/cameradfx_config.json
+odm/etc/camera/cameraopt_reclaim.json
 odm/etc/camera/camxoverridesettings.txt
 odm/etc/camera/deblur_txt_dsp.dlc
 odm/etc/camera/deblur_txt_gpu.dlc
@@ -934,7 +931,6 @@ odm/etc/dolby/dax-default-spatializer.xml
 odm/etc/dolby/dax-default.xml
 
 # Fingerprint
-odm/etc/vintf/manifest/AHBF-V3-service.xml
 odm/etc/vintf/manifest/fod-aidl.xml
 odm/lib64/hw/fingerprint.fpc.so:odm/lib64/hw/fingerprint.fpc.default.so;FIX_SONAME
 vendor/etc/permissions/qti_fingerprint_interface.xml
