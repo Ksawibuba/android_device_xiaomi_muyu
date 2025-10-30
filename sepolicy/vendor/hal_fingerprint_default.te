@@ -1,5 +1,6 @@
 hal_attribute_service(hal_fingerprint, vendor_hal_fingerprint_service_xiaomi)
 
+allow hal_fingerprint_default self:capability sys_nice;
 allow hal_fingerprint_default sysfs:file write;
 allow hal_fingerprint_default { tee_device uhid_device }:chr_file rw_file_perms;
 allow hal_fingerprint_default { vendor_dmabuf_qseecom_heap_device vendor_dmabuf_qseecom_ta_heap_device }:chr_file r_file_perms;
