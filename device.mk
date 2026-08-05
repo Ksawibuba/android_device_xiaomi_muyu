@@ -34,3 +34,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/muyu/muyu-vendor.mk)
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 3200
+TARGET_SCREEN_WIDTH := 2136
+
