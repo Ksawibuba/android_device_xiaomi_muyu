@@ -6,3 +6,4 @@ ro.radio.noril=yes
 ro.carrier=wifi-only
 hw.nophone=true
 persist.radio.multisim.config=none
+persist.wm.debug.desktop_mode_enforce_device_restrictions=false
