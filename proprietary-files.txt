@@ -1056,3 +1056,7 @@ odm/firmware/o81_nova_csot_thp_config.ini
 odm/firmware/o81_nova_tm_thp_config.ini
 odm/firmware/palm_check.tflite
 odm/firmware/water_check.tflite
+# Charger modules
+vendor/lib/modules/qti_battery_charger.ko
+vendor/lib/modules/charger-ulog-glink.ko
+vendor/lib/modules/charger_partition.ko
